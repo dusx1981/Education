@@ -1,0 +1,96 @@
+/* 平板设备 */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 95%;
+        margin: 10px;
+    }
+    
+    .header h1 {
+        font-size: 2.2rem;
+    }
+}
+
+/* 移动设备 */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+    
+    .chat-container {
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .sidebar {
+        width: 100%;
+        border-right: none;
+        border-bottom: 3px dashed #ff99ac;
+        max-height: 250px;
+    }
+    
+    .header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .character {
+        position: static;
+        margin-top: 10px;
+        font-size: 1.5rem;
+    }
+    
+    .message-bubble {
+        max-width: 85%;
+    }
+    
+    .input-area {
+        padding: 15px;
+    }
+    
+    #messageInput {
+        padding: 12px 15px;
+        font-size: 1rem;
+    }
+    
+    #sendButton {
+        padding: 12px 20px;
+        font-size: 1rem;
+    }
+}
+
+/* 小屏幕设备 */
+@media (max-width: 480px) {
+    .header {
+        padding: 15px;
+    }
+    
+    .header h1 {
+        font-size: 1.5rem;
+    }
+    
+    .header p {
+        font-size: 1rem;
+    }
+    
+    .chat-messages {
+        padding: 10px;
+    }
+    
+    .message-bubble {
+        max-width: 90%;
+        padding: 10px 15px;
+    }
+    
+    .bot-avatar {
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+        font-size: 0.8rem;
+    }
+    
+    .connection-status {
+        top: 10px;
+        right: 10px;
+        font-size: 0.8rem;
+        padding: 6px 12px;
+    }
+}

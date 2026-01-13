@@ -1,0 +1,17 @@
+{
+  "name": "english-learning-app",
+  "version": "1.0.0",
+  "description": "趣味英语学习应用",
+  "scripts": {
+    "dev": "live-server --port=8080 --open=./index.html",
+    "build": "echo '前端静态文件，无需构建'",
+    "lint:css": "stylelint \"css/*.css\"",
+    "lint:js": "eslint \"js/*.js\"",
+    "lint": "npm run lint:css && npm run lint:js"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "eslint": "^8.0.0",
+    "stylelint": "^15.0.0"
+  }
+}
